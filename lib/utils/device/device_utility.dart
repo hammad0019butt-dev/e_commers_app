@@ -76,6 +76,7 @@ class HDeviceUtils {
     Future.delayed(duration, () => HapticFeedback.vibrate());
   }
 
+
   static Future<void> setPreferredOriantation(
     List<DeviceOrientation> orientations,
   ) async {
@@ -86,5 +87,5 @@ class HDeviceUtils {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
   }
 
-  
+
 }
